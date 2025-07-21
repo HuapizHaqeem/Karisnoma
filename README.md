@@ -3,7 +3,6 @@
 Karisnoma adalah aplikasi desktop berbasis JavaFX yang dirancang untuk membantu proses pencatatan gejala, pengelolaan riwayat medis, serta pemberian edukasi dan pengingat kepada pasien penderita kanker. Aplikasi ini dikembangkan sebagai bagian dari proyek tugas besar dengan pendekatan berbasis peran, yaitu Admin, Dokter, dan Pasien.
 
 ---
-
 🧩 Fitur Utama
 - 🔐 Autentikasi Pengguna
   - Login berdasarkan peran: Admin, Dokter, Pasien
@@ -34,6 +33,7 @@ Karisnoma adalah aplikasi desktop berbasis JavaFX yang dirancang untuk membantu 
   - Desain modern menggunakan file CSS terpisah (Style.css, dll)
   - Tampilan bersih dan mudah dinavigasi
 
+---
 📁 Struktur Proyek
 ```
 TubesV2Fix_AI/
@@ -48,39 +48,34 @@ TubesV2Fix_AI/
 ├── README.md             # Dokumentasi proyek
 ├── TubesV2Fix_AI.jar     # File executable aplikasi
 ```
+---
 🚀 Cara Menjalankan Aplikasi<br>
 **Menggunakan IDE (VS Code / IntelliJ):**<br>
-**1.** Pastikan Java Development Kit (JDK) 9
-**2.** Buka proyek di VS Code
+**1.** Pastikan Java Development Kit (JDK) 9<br>
+**2.** Buka proyek di VS Code<br>
 **3.** Jalankan file ```Main.java``` sebagai program Java
 
 Menggunakan Terminal:
 ```
 java -jar TubesV2Fix_AI.jar
 ```
-Pastikan JavaFX sudah dikonfigurasi jika menggunakan JDK standalone.
+| Pastikan JavaFX sudah dikonfigurasi jika menggunakan JDK standalone.
 
+---
 🛠️ Teknologi yang Digunakan
-Java 11+
+- Java 9
+- JavaFX & FXML
+- CSS untuk UI Styling
+- Penyimpanan data lokal (kemungkinan berbasis XML atau objek serialisasi)
+- Visual Studio Code (sebagai IDE utama)
 
-JavaFX & FXML
-
-CSS untuk UI Styling
-
-Penyimpanan data lokal (kemungkinan berbasis XML atau objek serialisasi)
-
-Visual Studio Code (sebagai IDE utama)
-
+---
 👥 Kontributor
-[Nama Anggota 1]
-
-[Nama Anggota 2]
-
-[Nama Anggota 3]
-
-[Nama Anggota 4]
-
-[dst.]
-
+- Muhammad Hafizh Hakim
+- Mahija Ramadhan Prabaswarakha
+- Muhammad Luthfi
+- Akbar Wijaya Alamsyah
+  
+---
 📌 Catatan
 Proyek ini dibuat untuk memenuhi tugas besar mata kuliah [nama mata kuliah] dan berfokus pada penerapan pemrograman berorientasi objek, struktur kontrol, serta penerapan GUI berbasis JavaFX.
