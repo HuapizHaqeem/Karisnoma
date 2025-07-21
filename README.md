@@ -1,18 +1,102 @@
-## Getting Started
+Karisnoma - Aplikasi Deteksi & Manajemen Kanker
+Karisnoma adalah aplikasi desktop berbasis JavaFX yang dirancang untuk membantu proses pencatatan gejala, pengelolaan riwayat medis, serta pemberian edukasi dan pengingat kepada pasien penderita kanker. Aplikasi ini dikembangkan sebagai bagian dari proyek tugas besar dengan pendekatan berbasis peran, yaitu Admin, Dokter, dan Pasien.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+🧩 Fitur Utama
+🔐 Autentikasi Pengguna
 
-## Folder Structure
+Login berdasarkan peran: Admin, Dokter, Pasien
 
-The workspace contains two folders by default, where:
+Fitur "Lupa Password" untuk pemulihan akun
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+📊 Dashboard Berbasis Role
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Admin: Mengelola akun pengguna dan pengingat sistem
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Dokter: Melihat data gejala dan riwayat medis pasien
 
-## Dependency Management
+Pasien: Mencatat gejala, melihat edukasi, dan menerima pengingat
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+📋 Manajemen Gejala
+
+Pasien dapat mencatat dan menghapus gejala yang dirasakan
+
+Dokter dapat melihat daftar gejala yang dilaporkan pasien
+
+📖 Edukasi Kesehatan
+
+Menyediakan konten edukatif seputar kanker
+
+Bisa diakses oleh pasien untuk menambah wawasan terkait kesehatan
+
+🕒 Pengingat
+
+Pengingat minum obat atau jadwal kontrol rutin
+
+Dapat ditambahkan dan dihapus oleh Admin
+
+🗃️ Riwayat Medis
+
+Mencatat riwayat pemeriksaan atau pengobatan pasien
+
+Dikelola oleh dokter dan bisa dilihat oleh pasien
+
+🎨 Tampilan UI Interaktif
+
+Desain modern menggunakan file CSS terpisah (Style.css, dll)
+
+Tampilan bersih dan mudah dinavigasi
+
+📁 Struktur Proyek
+python
+Salin
+Edit
+TubesV2Fix_AI/
+├── src/                  # Kode sumber (Java + JavaFX)
+│   ├── controller/       # Semua file controller berdasarkan peran dan fitur
+│   ├── model/            # Class model (misal: Gejala, Pengingat, dll)
+│   ├── view/             # File .fxml (jika ada)
+│   ├── Main.java         # Entry point aplikasi
+│   ├── Style.css         # Styling tampilan
+├── lib/                  # Dependensi eksternal (jika ada)
+├── bin/                  # Output kompilasi
+├── README.md             # Dokumentasi proyek
+├── TubesV2Fix_AI.jar     # File executable aplikasi
+🚀 Cara Menjalankan Aplikasi
+Menggunakan IDE (VS Code / IntelliJ):
+Pastikan Java Development Kit (JDK) 11 atau lebih baru telah terpasang
+
+Buka proyek di VS Code
+
+Jalankan file Main.java sebagai program Java
+
+Menggunakan Terminal:
+bash
+Salin
+Edit
+java -jar TubesV2Fix_AI.jar
+Pastikan JavaFX sudah dikonfigurasi jika menggunakan JDK standalone.
+
+🛠️ Teknologi yang Digunakan
+Java 11+
+
+JavaFX & FXML
+
+CSS untuk UI Styling
+
+Penyimpanan data lokal (kemungkinan berbasis XML atau objek serialisasi)
+
+Visual Studio Code (sebagai IDE utama)
+
+👥 Kontributor
+[Nama Anggota 1]
+
+[Nama Anggota 2]
+
+[Nama Anggota 3]
+
+[Nama Anggota 4]
+
+[dst.]
+
+📌 Catatan
+Proyek ini dibuat untuk memenuhi tugas besar mata kuliah [nama mata kuliah] dan berfokus pada penerapan pemrograman berorientasi objek, struktur kontrol, serta penerapan GUI berbasis JavaFX.
