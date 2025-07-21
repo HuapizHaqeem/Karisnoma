@@ -1,0 +1,27 @@
+.halaman{
+-fx-background-image: url("img/4.jpeg");
+-fx-background-size: cover;
+-fx-background-repeat: no-repeat;
+}
+
+.logo{
+-fx-background-image: url("img/5.jpeg");
+-fx-background-size: cover;
+-fx-background-repeat: no-repeat;
+}
+
+.login-button {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #4d4d4d;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 20;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 4, 0, 0, 2);
+}
+
+.login-button:hover {
+    -fx-background-color: #f0f0f0;
+}
+

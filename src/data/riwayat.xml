@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<list>
+    <model.Riwayat>
+        <diagnosa>Kanker Paru-paru</diagnosa>
+        <terapi>Kemoterapi</terapi>
+        <hasilLab>Popcorn Lung</hasilLab>
+    </model.Riwayat>
+</list>

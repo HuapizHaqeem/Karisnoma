@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane styleClass="root" stylesheets="@../Style.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardPasienController">
+   <children>
+
+      <BorderPane styleClass="dashboard-background" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <!-- Sidebar -->
+         <left>
+            <VBox styleClass="sidebar">
+               <children>
+                  <!-- Logo and Title -->
+                  <VBox alignment="CENTER" spacing="10.0">
+                     <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                        <Image url="@../img/4.jpeg" />
+                     </ImageView>
+                     <Label text="KARISNOMA" textFill="WHITE">
+                        <font>
+                           <Font name="System Bold" size="20.0" />
+                        </font>
+                     </Label>
+                     <Label text="Patient Dashboard" textFill="WHITE">
+                        <font>
+                           <Font size="14.0" />
+                        </font>
+                     </Label>
+                  </VBox>
+                  <Separator styleClass="sidebar-separator">
+                     <VBox.margin>
+                        <Insets bottom="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Separator>
+                  <!-- Navigation Buttons -->
+                  <VBox spacing="10.0">
+                     <Button mnemonicParsing="false" onAction="#toEdukasi" prefWidth="197.0" styleClass="sidebar-button">
+                        <graphic>
+                           <HBox alignment="CENTER_LEFT" spacing="10.0">
+                              <Label text="📚" />
+                              <Label text="Edukasi" textFill="WHITE" />
+                           </HBox>
+                        </graphic>
+                     </Button>
+                     <Button mnemonicParsing="false" onAction="#toGejala" prefWidth="197.0" styleClass="sidebar-button">
+                        <graphic>
+                           <HBox alignment="CENTER_LEFT" spacing="10.0">
+                              <Label text="📋" />
+                              <Label text="Gejala Pasien" textFill="WHITE" />
+                           </HBox>
+                        </graphic>
+                     </Button>
+                     <Button mnemonicParsing="false" onAction="#toPengingat" prefWidth="197.0" styleClass="sidebar-button">
+                        <graphic>
+                           <HBox alignment="CENTER_LEFT" spacing="10.0">
+                              <Label text="⏰" />
+                              <Label text="Pengingat" textFill="WHITE" />
+                           </HBox>
+                        </graphic>
+                     </Button>
+                     <Button mnemonicParsing="false" onAction="#logout" prefWidth="197.0" styleClass="sidebar-button">
+                        <graphic>
+                           <HBox alignment="CENTER_LEFT" spacing="10.0">
+                              <Label text="🚪" />
+                              <Label text="Logout" textFill="WHITE" />
+                           </HBox>
+                        </graphic>
+                     </Button>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </VBox>
+         </left>
+
+         <!-- Main Content Area -->
+         <center>
+            <ScrollPane fitToHeight="true" fitToWidth="true">
+               <content>
+                  <VBox spacing="20.0" styleClass="Pasien">
+                     <!-- Header -->
+                     <HBox alignment="CENTER_LEFT" spacing="20.0" styleClass="dashboard-header">
+                        <Label fx:id="welcomeLabel" text="Welcome, [Patient Name]">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <Region HBox.hgrow="ALWAYS" />
+                     </HBox>
+
+                           <!-- Quick Stats -->
+                     <HBox spacing="20.0">
+                        <VBox styleClass="card" HBox.hgrow="ALWAYS">
+                           <Label styleClass="card-title" text="Next Appointment" />
+                           <Label fx:id="nextAppointment" text="No upcoming appointments" />
+                        </VBox>
+                        <VBox styleClass="card" HBox.hgrow="ALWAYS">
+                           <Label styleClass="card-title" text="Medication Reminders" />
+                           <Label fx:id="medicationReminders" text="No active reminders" />
+                        </VBox>
+                        <VBox styleClass="card" HBox.hgrow="ALWAYS">
+                           <Label styleClass="card-title" text="Last Checkup" />
+                           <Label fx:id="lastCheckup" text="No recent checkups" />
+                        </VBox>
+                     </HBox>
+
+                           <!-- Main Content -->
+                     <BorderPane fx:id="mainContent" VBox.vgrow="ALWAYS" />
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

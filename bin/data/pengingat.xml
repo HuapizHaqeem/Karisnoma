@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<list>
+    <model.Pengingat>
+        <tanggal>2025-07-12</tanggal>
+        <jenis>Minum Obat</jenis>
+        <sudahDijalankan>true</sudahDijalankan>
+    </model.Pengingat>
+    <model.Pengingat>
+        <tanggal>2025-07-15</tanggal>
+        <jenis>Kontrol</jenis>
+        <sudahDijalankan>true</sudahDijalankan>
+    </model.Pengingat>
+    <model.Pengingat>
+        <tanggal>2025-05-05</tanggal>
+        <jenis>Kontrol</jenis>
+        <sudahDijalankan>true</sudahDijalankan>
+    </model.Pengingat>
+    <model.Pengingat>
+        <tanggal>2025-09-09</tanggal>
+        <jenis>Kontrol</jenis>
+        <sudahDijalankan>true</sudahDijalankan>
+    </model.Pengingat>
+    <model.Pengingat>
+        <tanggal>2025-09-21</tanggal>
+        <jenis>Minum Obat</jenis>
+        <sudahDijalankan>true</sudahDijalankan>
+    </model.Pengingat>
+    <model.Pengingat>
+        <tanggal>2025-10-20</tanggal>
+        <jenis>Minum Obat</jenis>
+        <sudahDijalankan>true</sudahDijalankan>
+    </model.Pengingat>
+    <model.Pengingat>
+        <tanggal>2025-02-02</tanggal>
+        <jenis>Minum Obat</jenis>
+        <sudahDijalankan>true</sudahDijalankan>
+    </model.Pengingat>
+    <model.Pengingat>
+        <tanggal>2024-01-03</tanggal>
+        <jenis>Kontrol</jenis>
+        <sudahDijalankan>true</sudahDijalankan>
+    </model.Pengingat>
+    <model.Pengingat>
+        <tanggal>2024-02-02</tanggal>
+        <jenis>Minum Obat</jenis>
+        <sudahDijalankan>true</sudahDijalankan>
+    </model.Pengingat>
+    <model.Pengingat>
+        <tanggal>2026-09-09</tanggal>
+        <jenis>Minum Obat</jenis>
+        <sudahDijalankan>true</sudahDijalankan>
+    </model.Pengingat>
+    <model.Pengingat>
+        <tanggal>2027-08-08</tanggal>
+        <jenis>Kontrol</jenis>
+        <sudahDijalankan>true</sudahDijalankan>
+    </model.Pengingat>
+    <model.Pengingat>
+        <tanggal>1231</tanggal>
+        <jenis>Minum Obat</jenis>
+        <sudahDijalankan>true</sudahDijalankan>
+    </model.Pengingat>
+    <model.Pengingat>
+        <tanggal>2025-07-07</tanggal>
+        <jenis>Kontrol</jenis>
+        <sudahDijalankan>false</sudahDijalankan>
+    </model.Pengingat>
+</list>

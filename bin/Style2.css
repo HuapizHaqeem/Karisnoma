@@ -1,0 +1,115 @@
+.Pasien{
+-fx-background-image: url("img/2.jpg");
+-fx-background-size: cover;
+-fx-background-repeat: no-repeat;
+}
+
+.Doctor{
+-fx-background-image: url("img/3.jpg");
+-fx-background-size: cover;
+-fx-background-repeat: no-repeat;
+}
+
+.Admin{
+-fx-background-image: url("img/1.png");
+-fx-background-size: cover;
+-fx-background-repeat: no-repeat;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: #1e50ff; 
+    -fx-background-radius: 0 5 5 0; 
+}
+
+#combo-box .arrow-button {
+    -fx-background-color: #A0D2EB; 
+    -fx-background-radius: 0 5 5 0; 
+}
+
+.combo-box .arrow {
+    -fx-background-color: white; 
+}
+
+
+.combo-box:hover {
+    -fx-border-color: #1e50ff; 
+}
+
+
+.combo-box:focused {
+    -fx-border-color: #1e50ff;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 2);
+}
+
+.combo-box .list-view {
+    -fx-background-color: white;
+    -fx-border-color: #A0D2EB;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 5);
+}
+
+.combo-box .list-cell {
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333; 
+    -fx-padding: 5 10;
+}
+
+
+.combo-box .list-cell:filled:hover {
+    -fx-background-color: linear-gradient(to right, #A0D2EB, #95a9f3); 
+    -fx-text-fill: white; 
+}
+
+
+.combo-box .list-cell:filled:selected {
+    -fx-background-color: linear-gradient(to right, #A0D2EB, #95a9f3);
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: linear-gradient(to right, #A0D2EB, #95a9f3);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-background-radius: 30;
+    -fx-padding: 8 24;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 4, 0, 0, 2);
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+}
+
+.contrast-textfield {
+    -fx-control-inner-background: #E0F2F7; 
+    -fx-border-color: #007ACC;             
+    -fx-border-width: 2px;                 
+    -fx-border-radius: 5px;                
+    -fx-padding: 8px 10px;                 
+    -fx-font-size: 14px;                   
+    -fx-text-fill: #333333;                
+}
+
+
+.contrast-textfield:focused {
+    -fx-border-color: #FFA500;             
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 2); 
+}
+
+#label.interactive-label {
+    -fx-text-fill: #000000;         
+    -fx-underline: true;            
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;           
+    -fx-cursor: hand;               
+    -fx-opacity: 0.85;              
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 2, 0, 0, 1);
+    -fx-transition: all 0.3s ease;
+}
+
+
+#label.interactive-label:hover {
+    -fx-text-fill: #ffffff;         
+    -fx-opacity: 1.0;
+    -fx-scale-x: 1.02;              
+    -fx-scale-y: 1.02;
+}

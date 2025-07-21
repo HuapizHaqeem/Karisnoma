@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<list>
+    <model.Gejala>
+        <tanggal>2025-07-01</tanggal>
+        <keluhan>Sesak napas</keluhan>
+        <tindakan>Nebulizer</tindakan>
+    </model.Gejala>
+    <model.Gejala>
+        <tanggal>2025-02-20</tanggal>
+        <keluhan>Mual</keluhan>
+        <tindakan>Obat asam lambung</tindakan>
+    </model.Gejala>
+</list>
