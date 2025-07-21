@@ -49,18 +49,15 @@ TubesV2Fix_AI/
 ├── TubesV2Fix_AI.jar     # File executable aplikasi
 ```
 🚀 Cara Menjalankan Aplikasi<br>
-**1.** Menggunakan IDE (VS Code / IntelliJ):
-Pastikan Java Development Kit (JDK) 11 atau lebih baru telah terpasang
-
-Buka proyek di VS Code
-
-Jalankan file Main.java sebagai program Java
+**Menggunakan IDE (VS Code / IntelliJ):**<br>
+**1.** Pastikan Java Development Kit (JDK) 9
+**2.** Buka proyek di VS Code
+**3.** Jalankan file ```Main.java``` sebagai program Java
 
 Menggunakan Terminal:
-bash
-Salin
-Edit
+```
 java -jar TubesV2Fix_AI.jar
+```
 Pastikan JavaFX sudah dikonfigurasi jika menggunakan JDK standalone.
 
 🛠️ Teknologi yang Digunakan
