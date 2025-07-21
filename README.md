@@ -1,5 +1,8 @@
-Karisnoma - Aplikasi Deteksi & Manajemen Kanker
+# Karisnoma - Aplikasi Deteksi & Manajemen Kanker
+
 Karisnoma adalah aplikasi desktop berbasis JavaFX yang dirancang untuk membantu proses pencatatan gejala, pengelolaan riwayat medis, serta pemberian edukasi dan pengingat kepada pasien penderita kanker. Aplikasi ini dikembangkan sebagai bagian dari proyek tugas besar dengan pendekatan berbasis peran, yaitu Admin, Dokter, dan Pasien.
+
+---
 
 🧩 Fitur Utama
 🔐 Autentikasi Pengguna
