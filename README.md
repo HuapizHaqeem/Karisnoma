@@ -5,54 +5,37 @@ Karisnoma adalah aplikasi desktop berbasis JavaFX yang dirancang untuk membantu 
 ---
 
 🧩 Fitur Utama
-🔐 Autentikasi Pengguna
+- 🔐 Autentikasi Pengguna
+  - Login berdasarkan peran: Admin, Dokter, Pasien
+  - Fitur "Lupa Password" untuk pemulihan akun
 
-Login berdasarkan peran: Admin, Dokter, Pasien
+- 📊 Dashboard Berbasis Role
+  - Admin: Mengelola akun pengguna dan pengingat sistem
+  - Dokter: Melihat data gejala dan riwayat medis pasien
+  - Pasien: Mencatat gejala, melihat edukasi, dan menerima pengingat
 
-Fitur "Lupa Password" untuk pemulihan akun
+- 📋 Manajemen Gejala
+  - Pasien dapat mencatat dan menghapus gejala yang dirasakan
+  - Dokter dapat melihat daftar gejala yang dilaporkan pasien
 
-📊 Dashboard Berbasis Role
+- 📖 Edukasi Kesehatan
+  - Menyediakan konten edukatif seputar kanker
+  - Bisa diakses oleh pasien untuk menambah wawasan terkait kesehatan
 
-Admin: Mengelola akun pengguna dan pengingat sistem
+- 🕒 Pengingat
+  - Pengingat minum obat atau jadwal kontrol rutin
+  - Dapat ditambahkan dan dihapus oleh Admin
 
-Dokter: Melihat data gejala dan riwayat medis pasien
+- 🗃️ Riwayat Medis
+  - Mencatat riwayat pemeriksaan atau pengobatan pasien
+  - Dikelola oleh dokter dan bisa dilihat oleh pasien
 
-Pasien: Mencatat gejala, melihat edukasi, dan menerima pengingat
-
-📋 Manajemen Gejala
-
-Pasien dapat mencatat dan menghapus gejala yang dirasakan
-
-Dokter dapat melihat daftar gejala yang dilaporkan pasien
-
-📖 Edukasi Kesehatan
-
-Menyediakan konten edukatif seputar kanker
-
-Bisa diakses oleh pasien untuk menambah wawasan terkait kesehatan
-
-🕒 Pengingat
-
-Pengingat minum obat atau jadwal kontrol rutin
-
-Dapat ditambahkan dan dihapus oleh Admin
-
-🗃️ Riwayat Medis
-
-Mencatat riwayat pemeriksaan atau pengobatan pasien
-
-Dikelola oleh dokter dan bisa dilihat oleh pasien
-
-🎨 Tampilan UI Interaktif
-
-Desain modern menggunakan file CSS terpisah (Style.css, dll)
-
-Tampilan bersih dan mudah dinavigasi
+- 🎨 Tampilan UI Interaktif
+  - Desain modern menggunakan file CSS terpisah (Style.css, dll)
+  - Tampilan bersih dan mudah dinavigasi
 
 📁 Struktur Proyek
-python
-Salin
-Edit
+```
 TubesV2Fix_AI/
 ├── src/                  # Kode sumber (Java + JavaFX)
 │   ├── controller/       # Semua file controller berdasarkan peran dan fitur
@@ -64,8 +47,9 @@ TubesV2Fix_AI/
 ├── bin/                  # Output kompilasi
 ├── README.md             # Dokumentasi proyek
 ├── TubesV2Fix_AI.jar     # File executable aplikasi
-🚀 Cara Menjalankan Aplikasi
-Menggunakan IDE (VS Code / IntelliJ):
+```
+🚀 Cara Menjalankan Aplikasi<br>
+**1.** Menggunakan IDE (VS Code / IntelliJ):
 Pastikan Java Development Kit (JDK) 11 atau lebih baru telah terpasang
 
 Buka proyek di VS Code
